@@ -14,6 +14,7 @@
 <body>
 	<h1 id="page-header" class="hello text-center">JavaScript синтаксис</h1>
 	<div class="container">
+
 		<div class="card">
 		  <div class="card-header">
 		    Вправа 1. Потрібно написати програму, що буде обчислювати площу круга за заданим радіусом
@@ -21,10 +22,24 @@
 		  <div class="card-body">
 		    <h5 class="card-title">Обчислення площі круга з радісом 75</h5>
 		    <p class="card-text">Формула для обчислення площі круга <code>S=&pi;R<sup>2</sup></code> </p>
-		    <a href="#" class="btn btn-primary" onclick="showAnswer()">Обчислити</a>
+		    <a href="#" class="btn btn-primary" id="button-1" onclick="showAnswer()">Обчислити</a>
 		    <p id="answer" class="font-weight-bold mt-3 text-info"></p>
 		  </div>
-		</div>	
+		</div>
+
+
+		<div class="card mt-3">
+		  <div class="card-header">
+		    Вправа 2. Написати функцію, що виводить на екран числа від 12 до 122 на екран.
+		  </div>
+		  <div class="card-body">
+		    <p class="card-text">Для написання програми потрібно використати цикли. Числа виводити ненумерованим списком</p>
+		    <a href="#" class="btn btn-primary" id="button-2" >Вивести числа</a>
+		    <ul id="numbers" class="font-weight-bold mt-3 text-info">
+
+		    </ul>
+		  </div>
+		</div>
 	</div>	
 </body>
 </html>
